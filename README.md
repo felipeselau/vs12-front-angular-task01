@@ -1,27 +1,49 @@
-# Vs12FrontAngularTask01
+<h1 align="center"> Task 01 - Angular </h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
+<p align="center">
+  Task 01 do módulo de Angular<br/>
+</p>
 
-## Development server
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#-instalacao-do-projeto">Instalação do projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-sobre-o-projeto">Sobre o Projeto</a>&nbsp;&nbsp;&nbsp;
+</p>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<p align="center">
+  <img alt="imagem do site pronto no vercel" src="./src/assets/sitepronto.png">
+</p>
 
-## Code scaffolding
+<p align="center">
+  <a href="https://ignite-todo-silk.vercel.app/" target="_blank">➡️ Acesse o deploy!</a>
+</p>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 🚀 Tecnologias
 
-## Build
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Angular
+- TypeScript
+- SCSS
+- Material Angular
 
-## Running unit tests
+## ⚙️ Instalação do projeto
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Passo-a-passo:
 
-## Running end-to-end tests
+1. Caso não tenha, instale a CLI do Angular
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```
+npm install -g @angular/cli
+```
 
-## Further help
+2.Instale as dependências e inicialize o Servidor
+```
+npm i
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+ng serve --open
+```
+
+## 💻 Sobre o Projeto
+
+O projeto é um site básico de informações sobre a série Sons of Anarchy, onde foram aplicados conceitos base sobre o roteamento, renderização e data-binding simples no Angular 
